@@ -10,7 +10,7 @@ Fire up your Terminal and type the following:
 
 Now, download the basic_connection.cpp file in this directory. Compile it with the following command:
 
-	g++ basic_connection.cpp -L/usr/lib/mysql -lmysqlclient -lz -o program_name
+	g++ basic_connection.cpp -lmysqlclient -lz -o program_name
 
 Now, well, RUN IT!
 
