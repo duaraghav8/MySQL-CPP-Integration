@@ -1,3 +1,7 @@
+/*
+	Special thanks to Vatsal jain aka VJ Boy for pointing out a small error
+*/
+
 #include <iostream>
 #include <string>
 #include <mysql/mysql.h>
