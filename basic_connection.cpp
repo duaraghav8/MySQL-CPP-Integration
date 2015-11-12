@@ -19,7 +19,7 @@ int main () {
 		return (0);
 	}
 
-	connection = mysql_real_connect (connection, "localhost", username, password, dbname, 0, NULL, 0);
+	connection = mysql_real_connect (connection, "localhost", username.c_str (), password.c_str (), dbname.c_str (), 0, NULL, 0);
 	if (connection) { cout << "Connection successful" << endl; }
 	else { cout << "Connection to Database Failed because your provided wrong Username/Password/Database Name." << endl; return (1); }
 
